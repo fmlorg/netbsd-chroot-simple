@@ -1,7 +1,14 @@
+<!-- -*- coding:utf-8 -*- -->
 # netbsd-chroot-simple
 
 NetBSD chroot wrapper for convenience. 
 It is a very tiny and simple script to use.
+
+NetBSD上でchroot環境を作るためのスクリプトです。
+何度も何度もテスト環境を初期化し、
+NetBSD環境を操作、試験後に破壊といった一連の動作を繰り返す作業に向いています。
+現代語では、ニセjailとか僞コンテナもどきと言われてしまうようなもので、
+運用には向きませんが開発には便利です。
 
 ## Usage
 
